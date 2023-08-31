@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1920px;
+  height: 1080px;
+  background: url("../img/img-bg.svg") center center/cover no-repeat;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 15, 32, 0.5);
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  :hover {
+    opacity: 0.5;
+  }
+}
+
+span {
+  display: block;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.btn_1 {
+  background-color: rgba(119, 165, 94, 0.855);
+  left: 103em;
+  top: 17em;
+}
+
+.btn_2 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 43em;
+  top: 18em;
+}
+
+.btn_3 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 86em;
+  top: 24em;
+}
+
+.btn_4 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 106em;
+  top: 25em;
+}
+
+.btn_5 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 51em;
+  top: 23em;
+}
+
+.btn_6 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 81em;
+  top: 31em;
+}
+
+.btn_7 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 98em;
+  top: 30em;
+}
+
+.btn_8 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 34em;
+  top: 30em;
+}
+
+.btn_9 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 119em;
+  top: 28em;
+}
+
+.btn_10 {
+  background-color: rgba(119, 165, 94, 0.855);
+
+  left: 84em;
+  top: 29em;
+}
