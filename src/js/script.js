@@ -4,11 +4,11 @@ const spanHide = document.querySelectorAll(".hide");
 
 btn.forEach((b) => {
   b.addEventListener("click", (event) => {
-    //add class active
+    //add class active button
     let target = event.target;
     target.classList.toggle("active");
 
-    //  show/hide text
+    //  show/hide text button
     spanShow.forEach((show) => {
       if (b.classList.contains("active")) {
         show.style.display = "none";
