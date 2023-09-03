@@ -1,0 +1,19 @@
+span {
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.show {
+  display: block;
+}

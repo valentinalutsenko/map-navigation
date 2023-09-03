@@ -1,0 +1,33 @@
+@import "./colors";
+@import "./common";
+
+.container {
+  width: 1920px;
+  height: 1080px;
+  background: url("../img/img-bg.svg") center center/cover no-repeat;
+
+  &__btn {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 15, 32, 0.5);
+  }
+  .btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    :hover {
+      opacity: 0.6;
+    }
+    @import "./button";
+    @import "./span";
+  }
+  .active {
+    border-radius: 9px;
+    width: 107px;
+    height: 52px;
+    position: relative;
+    border: none;
+  }
+}
